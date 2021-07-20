@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
         child: FlutterIconSearchView(),
         providers: [
           ChangeNotifierProvider(
-              create: (context) => FlutterIconSearchController()),
+            create: (context) => FlutterIconSearchController(),
+          ),
         ],
       ),
     );
